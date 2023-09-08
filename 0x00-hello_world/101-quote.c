@@ -2,8 +2,8 @@
 /**
 *main - Entry point
 *
-*Description: A C program that prints a sentence using an array of chars using write function
-*
+*Description: A C program that prints a sentence using an array of chars
+*It uses the write function
 *Return: 1 in case of error
 **/
 int main(void)

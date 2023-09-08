@@ -2,7 +2,7 @@
 /**
 *main - Entry point
 *
-* Description: A C program that prints size of various types using printf function
+*Description: A C program that prints size of various types using printf
 *
 *Return: 0
 **/
