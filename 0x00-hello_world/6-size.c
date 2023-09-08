@@ -1,11 +1,11 @@
 #include <stdio.h>
-/*
-*Main : entry point to code
+/**
+*main - Entry point
 *
 *Description: A C program that prints size of various types using printf
 *
 *Return: 0
-*/
+**/
 int main(void)
 {
 printf("size of a char: %d byte(s)\n", sizeof(char));
