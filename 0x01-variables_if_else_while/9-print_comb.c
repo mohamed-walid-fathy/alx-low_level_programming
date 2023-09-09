@@ -1,24 +1,24 @@
 #include<stdio.h>
 /**
  * main - entry point of code
- * 
+ *
  * Description : prints 0 , 1, ...9
- * 
+ *
  * Return: 0 in case of success
  **/
 int main(void)
 {
-`int x = 0;
-while (x <= 9)
+int x = 0;
+while (x<=9)
 {
-putchar(x + 48);
+	putchar(x+48);
 
-if (x != 9)
+if (x !=9)
 {
-putchar(',');
-putchar(' ');
+	putchar(',');
+        putchar(' ');
 }
-x++;
+	x++;
 }
 putchar('\n');
 

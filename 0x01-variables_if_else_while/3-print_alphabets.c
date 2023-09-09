@@ -1,9 +1,9 @@
 #include<stdio.h>
 /**
  * main - entry point of code
- * 
+ *
  * Description : prints all alphabetic characters
- * 
+ *
  * Return: 0 in case of success
  **/
 int main(void)
@@ -16,7 +16,7 @@ while (x <= 'z')
 	x++;
 }
 printf("\n");
-while (X<='Z')
+while (X <= 'Z')
 {
 	putchar(x);
 	x++;

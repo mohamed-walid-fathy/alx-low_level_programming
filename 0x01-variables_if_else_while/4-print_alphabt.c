@@ -1,9 +1,9 @@
 #include<stdio.h>
 /**
  * main - entry point of code
- * 
+ *
  * Description : prints all alphabetic characters except q and e
- * 
+ *
  * Return: 0 in case of success
  **/
 int main(void)

@@ -1,10 +1,10 @@
 #include<stdio.h>
 /**
- * main - entry point of code
- * 
- * Description : prints all alphabetic characters
- * 
- * Return: 0 in case of success
+ *main - entry point of code
+ *
+ *Description : prints all alphabetic characters
+ *
+ *Return: 0 in case of success
  **/
 int main(void)
 {
