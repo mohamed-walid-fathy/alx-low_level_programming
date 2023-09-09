@@ -12,7 +12,7 @@ int main(void)
   while (x<='z')
   {
       putchar(x);
-      x++;
+      x++
   }
   printf("\n");
           
