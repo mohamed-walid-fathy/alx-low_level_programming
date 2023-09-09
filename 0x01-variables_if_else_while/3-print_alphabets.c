@@ -19,7 +19,7 @@ printf("\n");
 while (X <= 'Z')
 {
 	putchar(x);
-	x++;
+	X++;
 }
 printf("\n");
 

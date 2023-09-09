@@ -4,21 +4,21 @@
  *
  * Description : prints 0 , 1, ...9
  *
- * Return: 0 in case of success
+ * Returns 0 in case of success
  **/
 int main(void)
 {
 int x = 0;
-while (x<=9)
+while (x <= 9)
 {
 	putchar(x+48);
 
-if (x !=9)
-{
-	putchar(',');
-        putchar(' ');
-}
-	x++;
+	if (x != 9)
+		{
+			putchar(',');
+			putchar(' ');
+		}
+x++;
 }
 putchar('\n');
 
