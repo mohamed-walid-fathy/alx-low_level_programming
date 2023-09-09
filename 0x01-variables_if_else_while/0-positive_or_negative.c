@@ -5,7 +5,7 @@
 *main - entry point of code
 *
 *Description : determines wether a random int is positive or negative
-*Returns zero in case of success
+*Return: Always 0 (Success)
 **/
 int main(void)
 {
