@@ -4,23 +4,23 @@
  * 
  * Description : prints 0 , 1, ...9
  * 
- * Returns 0 in case of success
+ * Return: 0 in case of success
  **/
 int main(void)
 {
-  int x = 0;
-  while (x<=9)
-  {
-      putchar(x+48);
-      
-      if (x !=9)
-      {
-            putchar(',');
-            putchar(' ');
-      }
-      x++;
+`int x = 0;
+while (x <= 9)
+{
+putchar(x + 48);
+
+if (x != 9)
+{
+putchar(',');
+putchar(' ');
 }
-  putchar('\n');
-          
-  return (0);
+x++;
+}
+putchar('\n');
+
+return (0);
 }

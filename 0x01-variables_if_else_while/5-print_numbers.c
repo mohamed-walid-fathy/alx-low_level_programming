@@ -4,17 +4,17 @@
  * 
  * Description : prints all single digit numbers
  * 
- * Returns 0 in case of success
+ * Return: 0 in case of success
  **/
 int main(void)
 {
-  int x = 0;
-  while (x<=9)
-  {
-      printf("%i",x);
-      x++;
-  }
-  printf("\n");
-  
-  return (0);
+int x = 0;
+while (x<=9)
+{
+	printf("%i",x);
+	x++;
+}
+printf("\n");
+
+return (0);
 }

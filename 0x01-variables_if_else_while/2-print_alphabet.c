@@ -4,17 +4,17 @@
  * 
  * Description : prints all alphabetic characters
  * 
- * Returns 0 in case of success
+ * Return: 0 in case of success
  **/
 int main(void)
 {
-  char x = 'a';
-  while (x<='z')
-  {
-      putchar(x);
-      x++
-  }
-  printf("\n");
-          
-  return (0);
+char x = 'a';
+while (x <= 'z')
+{
+	putchar(x);
+	x++;
+}
+printf("\n");
+
+return (0);
 }
