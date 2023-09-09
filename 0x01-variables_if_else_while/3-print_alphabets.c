@@ -18,7 +18,7 @@ while (x <= 'z')
 printf("\n");
 while (X <= 'Z')
 {
-	putchar(x);
+	putchar(X);
 	X++;
 }
 printf("\n");
