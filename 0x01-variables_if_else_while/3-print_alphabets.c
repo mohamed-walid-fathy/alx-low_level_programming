@@ -15,7 +15,6 @@ while (x <= 'z')
 	putchar(x);
 	x++;
 }
-printf("\n");
 while (X <= 'Z')
 {
 	putchar(X);
