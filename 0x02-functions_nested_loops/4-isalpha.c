@@ -1,6 +1,6 @@
 #include"main.h"
 /*
-*_isalpha : distincts if input is alphabetic or not
+*Description : distincts if input is alphabetic or not
 **/
 int _isalpha(int c)
 {
