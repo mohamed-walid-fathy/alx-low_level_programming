@@ -6,12 +6,6 @@
 *
 *Return: 0 in case of success
 **/
-void print_alphabet(void);
-int main(void)
-{
-	print_alphabet();
-	return (0);
-}
 void print_alphabet(void)
 {
 	int i;
