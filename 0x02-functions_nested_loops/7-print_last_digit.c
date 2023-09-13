@@ -5,5 +5,5 @@
 int print_last_digit(int n)
 {
 	int x = n % 10;
-	printf("%d\n",x);
+	return (x);
 }
