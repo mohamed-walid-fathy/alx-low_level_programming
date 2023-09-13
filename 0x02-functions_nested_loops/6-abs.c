@@ -1,6 +1,6 @@
 #include"main.h"
 /**
-*Description: prints absolute value of number n
+*_abs - prints absolute value of number n
 *@n: input number
 *Return: returns the absolute value of n
 **/
