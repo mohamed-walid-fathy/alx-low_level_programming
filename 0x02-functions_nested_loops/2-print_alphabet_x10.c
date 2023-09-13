@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include<main.h>
 /**
 *main - entry point of code
 *
@@ -22,5 +22,6 @@ void print_alphabet_x10(void);
         {       
                 putchar (i);
         }
+        _putchar ('\n');
 	}
 }
