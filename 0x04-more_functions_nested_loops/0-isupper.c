@@ -2,11 +2,9 @@
 #include<stdio.h>
 /**
 * _isupper - uppercase check
-* @parameterx: Description of parameter x
-* a blank line
-* Description: Longer description of the function)?
-* section header: Section description)*
-* Return: Description of the returned value
+* @c:operand 
+*Description: checks if c is uppercase
+*Return: Description of the returned value
 */
 int _isupper(int c)
 {
