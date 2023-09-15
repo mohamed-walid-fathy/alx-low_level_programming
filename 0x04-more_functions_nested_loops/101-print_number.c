@@ -14,7 +14,7 @@ void print_number(int n)
 		while (n > 0)
 		{
 			int digit = n % 10;
-			_putchar('digit');
+			_putchar(digit + '0');
 			n /= 10;
 		}
 	}
@@ -25,7 +25,7 @@ void print_number(int n)
 		while (p > 0)
 		{
 			int digit2 = n % 10;
-			_putchar('digit2');
+			_putchar(digit2 + '0');
 			p /= 10;
 		}
 	}
