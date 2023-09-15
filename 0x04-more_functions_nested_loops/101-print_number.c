@@ -9,11 +9,13 @@
 
 void print_number(int n)
 {
-	if( n > 0)
+	int digit, digit2, p;
+
+	if( n >= 0)
 	{
-		while (n > 0)
+		while (n >= 0)
 		{
-			int digit = n % 10;
+			digit = n % 10;
 			_putchar(digit + '0');
 			n /= 10;
 		}
@@ -21,10 +23,10 @@ void print_number(int n)
 	else
 	{
 		_putchar('-');
-		int p = n * -1;
+		p = -n;
 		while (p > 0)
 		{
-			int digit2 = n % 10;
+			digit2 = n % 10;
 			_putchar(digit2 + '0');
 			p /= 10;
 		}
