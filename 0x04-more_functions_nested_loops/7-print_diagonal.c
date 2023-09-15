@@ -12,6 +12,10 @@ void print_diagonal(int n)
 	int diagonal;
 	int space;
 
+	if (n <= 0)
+	{
+		_putchar('\n');
+	}
 	for (diagonal = 0; diagonal < n; diagonal++)
 	{
 		for (space = 0; space < diagonal; space++)
