@@ -9,27 +9,24 @@
 
 void print_number(int n)
 {
-	unsigned int digit, digit2;
+	unsigned int digit;
 	int p;
 
-	if(n > 0)
-	{
-		while (n > 0)
-		{
-			digit = n % 10;
-			_putchar(digit + '0');
-			n /= 10;
-		}
-	}
-	else
+	if (n < 0)
 	{
 		_putchar('-');
 		p = -n;
-		while (p > 0)
-		{
-			digit2 = n % 10;
-			_putchar(digit2 + '0');
-			p /= 10;
-		}
 	}
+	else
+	{
+		p = n;
+	}
+
+	if (p > 9)
+	{
+		print_number(p / 10);
+	}
+
+	digit = p % 10;
+	_putchar(digit + '0');
 }
