@@ -10,6 +10,7 @@
 void print_number(int n)
 {
 	unsigned int num;
+	unsigned int reversedNum = 0;
 
 	if (n < 0)
 	{
@@ -26,9 +27,6 @@ void print_number(int n)
 		_putchar('0');
 		return;
 	}
-
-	unsigned int reversedNum = 0;
-
 	while (num > 0)
 	{
 		reversedNum = reversedNum * 10 + (num % 10);
