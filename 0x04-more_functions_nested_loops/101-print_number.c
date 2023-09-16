@@ -9,7 +9,8 @@
 
 void print_number(int n)
 {
-	int digit, digit2, p;
+	unsigned int digit, digit2
+	int p;
 
 	if(n > 0)
 	{
