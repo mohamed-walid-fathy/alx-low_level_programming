@@ -11,9 +11,9 @@ void print_number(int n)
 {
 	int digit, digit2, p;
 
-	if( n >= 0)
+	if(n > 0)
 	{
-		while (n >= 0)
+		while (n > 0)
 		{
 			digit = n % 10;
 			_putchar(digit + '0');
