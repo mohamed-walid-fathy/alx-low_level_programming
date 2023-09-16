@@ -1,5 +1,6 @@
 #include"main.h"
 #include<stdio.h>
+#include<math.h>
 
 /**
 *main - entry point of code
@@ -10,9 +11,9 @@
 
 int main(void)
 {
-long int n;
-	long long int max;
-	long long int i;
+	long int n;
+	long int max;
+	long int i;
 
 	n = 612852475143;
 	max = -1;
