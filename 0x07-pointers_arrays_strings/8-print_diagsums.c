@@ -1,7 +1,7 @@
 #include"main.h"
 
 /**
-*_strspn - prints sum of elements on a diagonal
+*print_diagsums - prints sum of elements on a diagonal
 *@a:ptr to matrix
 *@size: size of matrix
 *Description: prints sum of elements on a diagonal
