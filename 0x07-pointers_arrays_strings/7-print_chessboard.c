@@ -1,7 +1,7 @@
 #include"main.h"
 
 /**
-*print_chessboard - 
+*print_chessboard - prints a chessboard
 *@a:ptr to char
 *Description: prints a chessboard
 *Return: void

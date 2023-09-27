@@ -1,7 +1,7 @@
 #include"main.h"
 
 /**
-*strchr - searches for char in str
+*_strspn - searches for char in str
 *@s:string
 *@accept:char being searched for
 *Description: searches for c in s

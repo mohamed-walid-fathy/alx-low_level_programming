@@ -1,7 +1,7 @@
 #include"main.h"
 
 /**
-*strpbrk - searches for a string
+*_strpbrk - searches for a string
 *@s:string being searched for
 *@accept:char being searched in
 *Description: locates 1st occurence of s
