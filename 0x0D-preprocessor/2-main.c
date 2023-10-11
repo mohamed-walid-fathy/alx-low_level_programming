@@ -1,7 +1,7 @@
 /**
-* main - prints name from which program
+*main - prints name from which program
 *is compiled
-* Return: Void
+*Return: Void
 */
 int main(void)
 {
