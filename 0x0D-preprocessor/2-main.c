@@ -1,3 +1,4 @@
+#include<stdio.h>
 /**
 *main - prints name from which program
 *is compiled
