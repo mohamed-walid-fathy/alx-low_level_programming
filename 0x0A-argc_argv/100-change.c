@@ -10,28 +10,47 @@
 
 int main(int argc, char *argv[])
 {
-	int sum = 0;
-	int i;
+	int change;
+	int coincounter = 0;
 
-	if (argc < 1)
+	if (argc != 2)
+	{
+		printf("Error\n");
+		return (1);
+	}
+	change = atoi(argv[1]);
+	if (change < 0)
 	{
 		printf("0\n");
 	}
 	else
 	{
-		for (i = 1; i < argc; i++)
+		while (change >= 25)
 		{
-			if (atoi(argv[i]) == 0)
-			{
-				printf("Error\n");
-				return (1);
-			}
-			else
-			{
-				sum += atoi(argv[i]);
-			}
+			change -= 25;
+			coincounter++;
 		}
-		printf("%d\n", sum);
+		while (change >= 10)
+		{
+			change -= 10;
+			coincounter++;
+		}
+		while (change >= 5)
+		{
+			change -= 5;
+			coincounter++;
+		}
+		while (change >= 2)
+		{
+			change -= 2;
+			coincounter++;
+		}
+		while (change >= 1)
+		{
+			change -= 1;
+			coincounter++;
+		}
 	}
+	printf("%d\n", coincounter);
 	return (0);
 }
