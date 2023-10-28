@@ -2,8 +2,8 @@
 
 /**
 *main - entry point
-*argc: int of arguments
-*argv: array of arguments
+*@argc: int of arguments
+*@argv: array of arguments
 *Return: Always 0
 */
 
